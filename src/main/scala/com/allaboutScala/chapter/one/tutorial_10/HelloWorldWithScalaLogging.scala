@@ -1,5 +1,8 @@
 package com.allaboutScala.chapter.one.tutorial_10
 
-object HelloWorldWithScalaLogging extends App{
+import com.typesafe.scalalogging.LazyLogging
 
+object HelloWorldWithScalaLogging extends App with LazyLogging{
+
+  logger.info("Hello World from the Scala Logging!")
 }
