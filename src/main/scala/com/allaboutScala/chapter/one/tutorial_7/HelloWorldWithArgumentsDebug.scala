@@ -1,7 +1,7 @@
 package com.allaboutScala.chapter.one.tutorial_7
 
 /**
-  * print Arguments with debugger
+  * print Arguments with debugger - Debug
   */
 object HelloWorldWithArgumentsDebug extends App{
 
