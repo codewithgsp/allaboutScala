@@ -9,7 +9,7 @@ object HelloWorldWithArguments extends App{
   println("Command line arguments are :")
 
   // args is a collection of arguments {Array[String] => collections}
-  // to make a collection to String, use s.mkString(sep=",")
+  // to make a collection to String, use args.mkString(sep=",")
 
   println(args.mkString(sep = ", "))
 }
